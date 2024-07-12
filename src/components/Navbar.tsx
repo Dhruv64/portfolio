@@ -8,6 +8,8 @@ import {
   PackagePlus,
   Phone,
   User2,
+  FolderCog,
+  BookMarked
 } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 
@@ -24,10 +26,10 @@ const Navbar = () => {
   const items = [
     { name: "Home", icon: <Home /> , link: "/"},
     { name: "about", icon: <User2 />,link: "/about" },
-    { name: "skills", icon: <Lightbulb />, link: "/skills" },
-    { name: "projects", icon: <Layers />, link: "/projects" },
-    { name: "work", icon: <Briefcase />, link: "/education" },
-    { name: "more", icon: <PackagePlus />, link: "/more" },
+    { name: "Experience & skills", icon: <Briefcase />, link: "/skills" },
+    { name: "projects", icon: <FolderCog />, link: "/projects" },
+    { name: "Education", icon: <BookMarked />, link: "/education" },
+    // { name: "more", icon: <PackagePlus />, link: "/more" },
     { name: "contact", icon: <Phone />, link: "/contact" },
   ];
 

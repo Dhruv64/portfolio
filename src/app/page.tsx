@@ -7,16 +7,16 @@ import GithubBtn from "@/components/GithubBtn";
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 
 export const siteConfig = {
-  name: "Md Taqui Imam",
+  name: "Dhruv Parmar",
   description: "I am a Passionate Software Developer",
-  ogImage: "https://mdTaquiImam.vercel.app/og-image.png",
+  // ogImage: "https://mdTaquiImam.vercel.app/og-image.png",
   url: "https://mdTaquiImam.vercel.app",
 }
 export default function Home() {
   return (
    <>
       {/* LEFT SIDE  */}
-      <div className=" h-full w-auto flex flex-col justify-start gap-4">
+      <div className=" h-full w-full flex flex-col justify-start gap-4">
         <HeroTexts />
         <div className="h-fit w-full p-4 flex gap-3">
           <SocialLinks />
@@ -31,7 +31,7 @@ export default function Home() {
       </div>
      
       {/* GITHUB BUTTON  */}
-      <GithubBtn/>
+      {/* <GithubBtn/> */}
       </>
   );
 }

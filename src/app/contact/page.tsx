@@ -1,6 +1,7 @@
 import ContactForm from "@/components/ContactForm";
 import Heading from "@/components/Heading";
 import { Badge } from "@/components/ui/badge";
+import { CardDemo } from "@/components/ui/icon-card";
 import { Phone } from "lucide-react";
 
 
@@ -17,6 +18,7 @@ const contactPage = () => {
         <Heading>Contact Me!</Heading>
         <div className="h-auto w-full flex justify-center items-center">
         <ContactForm/>
+        <CardDemo/>
         </div>
         <p className=" font-poppins text-lg w-full text-primary max-sm:text-base"></p>
       </div>

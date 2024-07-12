@@ -1,3 +1,4 @@
+"use client"
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
@@ -16,7 +17,7 @@ interface projectcardprops {
 const ProjectCards: React.FC<projectcardprops> = ({ value }) => {
   return (
   
-    <Card className="max-w-[32%] max-lg:max-w-full">
+    <Card className="w-full h-full relative z-20 opacity-[85%]">
       <CardHeader>
         <CardTitle>{value.title}</CardTitle>
        
@@ -31,15 +32,7 @@ const ProjectCards: React.FC<projectcardprops> = ({ value }) => {
         }
         </div>
       </CardContent>
-      <CardFooter className="items-center justify-center flex">
-        <Link
-          href={value.link}
-          target="blank"
-          className={cn(buttonVariants({ variant: "default", size: "lg" }))}
-        >
-          Visit Project
-        </Link>
-      </CardFooter>
+      
     </Card>
   );
 };

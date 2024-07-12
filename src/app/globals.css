@@ -82,18 +82,19 @@
   display: block;
   width: 6rem;
   height: .6rem;
-  background-color: #2f7df4;
+  background-color: #5C47D0;
+  margin-top: 1rem;
 }
-.icon_underline::after{
+/* .icon_underline::after{
   content: "";
     position: absolute;
     top: 100%;
     display: block;
     width: 2rem;
     height: .3rem;
-    background-color: #2f7df4;
+    background-color: #5C47D0;
     margin-bottom: 2rem;
-}
+} */
 .education_point::before{
   content: "";
     display: block;

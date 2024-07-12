@@ -1,6 +1,8 @@
+"use client"
 import Heading from "@/components/Heading";
 import ProjectCards from "@/components/ProjectsCard";
 import { Badge } from "@/components/ui/badge";
+import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { Layers } from "lucide-react";
 
 const projectsPage = () => {
@@ -70,9 +72,7 @@ const projectsPage = () => {
       </div>
 
       <div className=" w-full flex flex-row flex-wrap gap-3 max-lg:flex-col">
-        {Projects.map((val, indx) => {
-          return <ProjectCards key={indx} value={val} />;
-        })}
+          <HoverEffect items={Projects} />
       </div>
     </div>
   );

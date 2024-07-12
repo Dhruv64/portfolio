@@ -22,9 +22,9 @@ const ContactForm = () => {
         }}
       >
         <CardHeader>
-          <CardTitle className="icon_underline">Send me a mail.</CardTitle>
+          <CardTitle className="icon_underline">Send me an email!</CardTitle>
           <CardDescription>
-            Once form is submit you will redirect to home page.
+            Once form is submitted, you will redirect to the home page.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -62,6 +62,7 @@ const ContactForm = () => {
           </Button>
         </CardFooter>
       </form>
+      
     </Card>
   );
 };
