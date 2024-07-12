@@ -5,6 +5,7 @@ import HeroTexts from "@/components/HeroTexts";
 import HeroImage from "@/components/HeroImage";
 import GithubBtn from "@/components/GithubBtn";
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
+import FramerWrapper from "@/components/FramerWrapper";
 
 export const siteConfig = {
   name: "Dhruv Parmar",
@@ -24,11 +25,11 @@ export default function Home() {
        <DownLoadResumeBtn/>
       </div>
       {/* RIGHT SIDE image  */}
-      <div className="h-full w-[47%] relative block max-lg:hidden">
+      <FramerWrapper className="h-full w-[47%] relative block max-lg:hidden" y={0} x={100}>
        
       {/* IMAGE  */}
         <HeroImage />
-      </div>
+      </FramerWrapper>
      
       {/* GITHUB BUTTON  */}
       {/* <GithubBtn/> */}

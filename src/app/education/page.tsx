@@ -1,3 +1,4 @@
+import FramerWrapper from "@/components/FramerWrapper";
 import Heading from "@/components/Heading";
 import { Badge } from "@/components/ui/badge";
 import { Briefcase } from "lucide-react";
@@ -44,12 +45,8 @@ const educationPage = () => {
               Software Engineering Systems
             </div>
             <p className=" font-poppins text-base w-full text-primary  max-sm:text-xs">
-              Northeastern University, Boston, MA <br />
-              <span className="text-sm">
-                <span className="font-bold">Related Coursework:</span> Program Structures and Algorithms, Web
-                Design, Object Oriented Design, Data Management & Database
-                Design
-              </span>
+                I am currently Studying Bachelor of Computer Application form Doranda College Ranchi a Goverment College of Ranchi. 
+                The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of computer science.
             </p>
           </div>
         </div>
