@@ -27,10 +27,10 @@ import { usePathname } from "next/navigation";
 const Navbar = () => {
   const items = [
     { name: "Home", icon: <Home /> , link: "/"},
-    { name: "about", icon: <User2 />,link: "/about" },
-    { name: "Experience & skills", icon: <Briefcase />, link: "/skills" },
+    // { name: "about", icon: <User2 />,link: "/about" },
+    // { name: "Experience & skills", icon: <Briefcase />, link: "/skills" },
     { name: "projects", icon: <FolderCog />, link: "/projects" },
-    { name: "Education", icon: <BookMarked />, link: "/education" },
+    // { name: "Education", icon: <BookMarked />, link: "/education" },
     // { name: "more", icon: <PackagePlus />, link: "/more" },
     { name: "contact", icon: <Phone />, link: "/contact" },
   ];
