@@ -11,7 +11,6 @@ import {
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
-import FramerWrapper from "@/components/FramerWrapper";
 
 const morePage = () => {
   const morelink = [
@@ -68,7 +67,6 @@ const morePage = () => {
         {morelink.map((value, indx) => {
           
           return (
-            <FramerWrapper key={indx} className="max-w-[32%] max-lg:max-w-full" y={0} scale={0.8} delay={indx/4} duration={0.15}>
             <Card  className="w-full">
               <CardHeader>
                 <CardTitle>{value.title}</CardTitle>
@@ -91,7 +89,6 @@ const morePage = () => {
                 </Link>
               </CardFooter>
             </Card>
-            </FramerWrapper>
           );
         })}
       </div>

@@ -1,4 +1,3 @@
-import FramerWrapper from "@/components/FramerWrapper";
 import Heading from "@/components/Heading";
 import { Badge } from "@/components/ui/badge";
 import { Briefcase } from "lucide-react";
