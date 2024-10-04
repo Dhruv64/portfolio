@@ -38,7 +38,6 @@ const ProjectCards: React.FC<projectcardprops> = ({ value, num }) => {
       </CardContent>
       
     </Card>
-    </FramerWrapper>
   );
 };
 

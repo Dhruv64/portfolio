@@ -2,7 +2,7 @@ import Aboutfooter from "@/components/Aboutfooter";
 import FramerWrapper from "@/components/FramerWrapper";
 import Heading from "@/components/Heading";
 import { Badge } from "@/components/ui/badge";
-import { User2 } from "lucide-react";
+import { Circle, Heart, User2 } from "lucide-react";
 const page = () => {
 
   return (
@@ -25,14 +25,14 @@ const page = () => {
       </div>
       <div className="w-full flex flex-row justify-between max-lg:flex-col ">
         <Aboutfooter />
-      </FramerWrapper>
+      </div>
       <FramerWrapper className="block" y={100} delay={0.31}>
         <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold flex icon_underline relative max-sm:text-2xl">
           {" "}
           <Heart className="h-8 w-8" /> Hobbies
         </h1>
         <div className="w-full h-fit p-2 flex flex-row justify-between gap-7 max-lg:flex-col">
-          {items.map((val, indx) => {
+          {/* {items.map((val, indx) => {
             return (
               <div
                 key={indx}
@@ -41,7 +41,7 @@ const page = () => {
                 <Circle className="h-3 w-3" /> {val.hobby}
               </div>
             );
-          })}
+          })} */}
         </div>
       </FramerWrapper>
     </div>

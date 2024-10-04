@@ -10,8 +10,7 @@ import FramerWrapper from "@/components/FramerWrapper";
 export const siteConfig = {
   name: "Dhruv Parmar",
   description: "I am a Passionate Software Developer",
-  // ogImage: "https://mdTaquiImam.vercel.app/og-image.png",
-  url: "https://mdTaquiImam.vercel.app",
+  // url: "",
 }
 export default function Home() {
   return (
@@ -24,15 +23,6 @@ export default function Home() {
         </div>
        <DownLoadResumeBtn/>
       </div>
-      {/* RIGHT SIDE image  */}
-      <FramerWrapper className="h-full w-[47%] relative block max-lg:hidden" y={0} x={100}>
-       
-      {/* IMAGE  */}
-        <HeroImage />
-      </FramerWrapper>
-     
-      {/* GITHUB BUTTON  */}
-      {/* <GithubBtn/> */}
       </>
   );
 }

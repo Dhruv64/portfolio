@@ -83,7 +83,7 @@ const projectsPage = () => {
       </Badge>
       <div className="flex flex-col gap-3">
         <Heading>My Projects</Heading>
-        <FramerWrapper y={0} x={200}>
+        <div>
           <p className=" font-poppins text-lg w-full text-primary max-sm:text-base">
             I love to Build Cool Projects. Here, you&#x27;ll find a curated
             collection of my creative endeavors and technical projects. Each
@@ -91,7 +91,7 @@ const projectsPage = () => {
             continuous learning. Feel free to explore this showcase of my
             passion and expertise in action.
           </p>
-        </FramerWrapper>
+        </div>
       </div>
 
       <div className=" w-full flex flex-row flex-wrap gap-3 max-lg:flex-col">
